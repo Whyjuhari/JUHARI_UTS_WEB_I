@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    font: 16px/28px arial, sans-serif;
+    color: rgb(83, 82, 82);
+    /* height: 800px; */
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    margin-top: 150px;
+}
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.header .judul {
+    font-size: 35px;
+}
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 5px 10px;
+
+}
+.header a:hover {
+    background-color: rgb(7, 93, 197);
+    color: #fff;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.header span {
+    color: red;
+}
+.twitter {
+    background-image: url(image/twitter.png);
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -22px;
+    right: -26px;
+    
+}
+
+.hero {
+    height: 350px;
+    background-image: url(image/bgn3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -50px;
+    border-bottom: 5px solid rgb(7, 93, 197);
+    border-top: 5px solid salmon;
+}
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.main h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.main .penulis {
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.main .penulis a {
+    text-decoration: none;
+    color: salmon;
+}
+
+.main .content {
+    height: 500px;
+    width: 500px;
+    margin: 0 50px;
+    overflow: scroll;
+}
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.sidebar p {
+    text-align: justify;
+}
+.main p {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 12px;
+    font-size: 14px;
+}
+
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+.footer .copy {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.footer p {
+    text-transform: capitalize;
+}
+.footer span {
+    color: red;
+    margin-right: 5px;
+    font-size: 12px;
+}
+/* Micro clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+} 
+
+.cf {
+    *zoom: 1;
+}

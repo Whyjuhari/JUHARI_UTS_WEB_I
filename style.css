@@ -1,0 +1,155 @@
+
+/* Mengambil font dari google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    font: 16px/28px arial, sans-serif;
+    color: rgb(83, 82, 82);
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/* Bagian header */
+.header {
+    font-family: 'Roboto Mono', monospace;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .judul {
+    font-size: 35px;
+    order: 2;
+}
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.header a {
+    text-decoration: none;
+    color: orangered;
+    padding: 5px 10px;
+}
+.header a.active {
+    color: rgb(7, 93, 197);
+    font-weight: 600;
+}
+.header a:hover {
+    color: rgb(7, 93, 197);
+    font-weight: 600;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+.header span {
+    color: red;
+}
+/* Akhir Header */
+
+
+/* Home */
+.hero {
+    height: 350px;
+    background-image: url(image/bgn3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -50px;
+    border-bottom: 5px solid rgb(7, 93, 197);
+    border-top: 5px solid orangered;
+}
+
+/* Bagian main content */
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.main p {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 12px;
+    font-size: 14px;
+}
+.main .penulis {
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.main .penulis a {
+    text-decoration: none;
+    color: salmon;
+}
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main .bahasa {
+    margin-left: 50px;
+}
+/* Akhir Main Content */
+
+
+/* Bagian sidebar ABOUT */
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar .about {
+    margin-top: 10px;
+    text-align: justify;
+}
+.sidebar img {
+    width: 75px;
+    height: 75px;
+    margin-top: 18px;
+    margin-right: 10px;
+    float: left;
+}
+.sidebar h2 {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+/* Akhir sidebar ABOUT */
+
+
+
+/* Bagian Footer */
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+.footer .copy {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.footer p {
+    text-transform: capitalize;
+}
+.footer span {
+    color: red;
+    margin-right: 5px;
+    font-size: 12px;
+}
+/* Akhir Footer */
